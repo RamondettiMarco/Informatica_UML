@@ -1,0 +1,8 @@
+CentroDiRicerca:
+1_Seleziona un'area a cui assegnare il progetto
+2_Seleziona un team a cui assegnare il progetto
+3_Seleziona un responsabile a cui assegnare il progetto
+4_Seleziona un senior a cui assegnare il progetto
+5_Seleziona gli junior a cui assegnare il progetto
+6_Assegna il progetto
+7_A progetto concluso, il team lo consegna

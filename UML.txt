@@ -1,0 +1,34 @@
+Il contoCorrente è identificato da un codice IBAN e dal nome e cognome del proprietario, le operazioni possibili sono:
+versare denaro, prelevare denaro, effettuare pagamenti, bonifici
+ATTRIBUTI: saldoTotale, entrate, uscite, codiceIBAN(str), proprietario(str), pensione, stipendio
+OPERAZIONI: versare, prelevare, pagare, ricevereBonificoonifico, effettuareBonifico, inserisciIBAN, inserisciProprietario
+			accreditoPensioneStipendio
+
+contoCorrente			
+saldoTotale			->	versare, prelevare, pagare, ricevereBonifico, effettuareBonifico, accreditoPensioneStipendio
+entrate  			->  versare, ricevereBonifico, accreditoPensioneStipendio
+uscite				->  prelevare, pagare, effettuareBonifico
+codiceIBAN			->  inserisciIBAN
+proprietario		->  inserisciProprietario
+pensione/stipendio  ->  accreditoPensioneStipendio
+
+class contoCorrente
+{
+	private:
+		float saldoTotale;
+		float entrate;
+		float uscite;
+		char codiceIBAN[28];
+		char proprietario[21];
+		float pensioneStipendio;
+	public:
+		float versare(float denaro, float saldoTotale); // finisce in float entrate
+		float prelevare(float denaro, float saldoTotale); // finisce in float uscite
+		float pagare(float denaro, float saldoTotale); // finisce in float uscite
+		float ricevereBonifico(float denaro, float saldoTotale, char *donatore); // finisce in float entrate
+		float effettuareBonifico(float denaro, float saldoTotale, char *destinatario); // finisce in float uscite
+		float accreditoPensioneStipendio(float denaro, float saldoTotale, float pensioneStipendio) // finisce in float entrate
+		void inserisciIBAN(char *codiceIBAN);
+		void inserisciProprietario(char *proprietario);
+}
+

@@ -1,0 +1,8 @@
+Il distributore automatico di bevande:
+- chiede di inserire le monete
+- controlla il loro valore
+- chiede il codice del prodotto
+- controlla se il prezzo del prodotto è inferiore alle monete inserite
+- rilascia il prodotto
+- rende il resto se presente
+

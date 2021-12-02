@@ -1,0 +1,6 @@
+Ereditarietà:
+
+1_Seleziona l'area di un rettangolo
+2_Assegnare base e altezza
+3_Utilizzare la stessa classe per calcolare l'area di un altro parallelepipedo
+4_Calcolare il volume del solido

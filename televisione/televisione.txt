@@ -1,0 +1,13 @@
+la classe televisione con un servizio pay-per-view è rappresentata da tre oggetti:
+
+- televisione: l'interfaccia
+
+- controllo remoto: effettua il controllo della scheda di pagamento e del suo credito 
+
+- fornitore del servizio: memorizza i programmi televisivi acquistati dall'utente
+
+l'utente cerca di acquistare un programma --> inserisceProgramma()
+il televisiore richiede di inserire il codice della carta per il pagamento --> inserisceCodice()
+l'interfaccia invia il codice al controllo per controllare se ci sono i soldi--> controlloCodice()
+il controllo invia il codice al fornitore del servizio --> inviaCodice()
+il fornitore invia il programma all'utente--> programmaAcquistato()

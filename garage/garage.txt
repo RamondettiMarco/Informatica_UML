@@ -1,0 +1,9 @@
+1_ richiedi abbonamento
+2_ rilascia abbonamento
+3_ verifica che ci sia posto
+4_ parcheggia se c'è posto
+5_ richiesta abbonamento giornaliero
+6_ rilascia abbonamento giornaliero
+7_ verifica che ci sia posto 
+8_ calcolo prezzo giornaliero 
+9_ calcolo con penale se si superano le 8 ore
